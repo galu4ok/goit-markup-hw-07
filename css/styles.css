@@ -370,18 +370,18 @@ body {
 }
 /* ------------------Customers----------------- */
 
-.customer__list {
+.customers__list {
   display: flex;
   justify-content: center;
 }
-.customer__item {
+.customers__item {
   width: 170px;
   height: 92px;
 }
-.customer__item + .customer__item {
+.customers__item + .customers__item {
   margin-left: 30px;
 }
-.customer__link {
+.customers__link {
   width: 100%;
   height: 100%;;
   border-radius: 4px;
@@ -393,12 +393,12 @@ body {
   color: #afb1b8;
   transition: color var(--duration) var(--timing-function), border-color var(--duration) var(--timing-function);
 }
-.customer__link:hover,
-.customer-link:focus {
+.customers__link:hover,
+.customers-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
-.customer__icon {
+.customers__icon {
   fill: currentColor;
 }
 /* -----------------Footer---------------- */
