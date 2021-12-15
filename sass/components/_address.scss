@@ -1,0 +1,17 @@
+.address__link {
+  color: $footer-link-color;
+  transition: color $duration $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+}
+}
+.address__link--map {
+  color: $primary-white-color;
+  transition: color $duration $timing-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+}
+}

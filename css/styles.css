@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
@@ -15,8 +15,8 @@
   --backdrop-bg-color:rgba(0, 0, 0, 0.2);
   --duration:250ms;
   --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
-p,
+} */
+/* p,
 h1,
 h2,
 h3,
@@ -29,9 +29,9 @@ h6 {
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 
-button {
+/* button {
   cursor: pointer;
 }
 
@@ -67,24 +67,24 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-.section__title {
+} */
+/* .section__title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-.section {
+} */
+/* .section {
   padding: 94px 0;
-}
+} */
 /* -------------------Header-------------- */
-.header {
+/* .header {
   position: fixed;
   width: 100%;
   top: 0;
@@ -123,10 +123,10 @@ body {
   height:4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+} */
 /* ------------------Logo----------------- */
 
-.logo {
+/* .logo {
   padding: 24px 0;
   margin-right: 93px;
   font-family: 'Raleway', sans-serif;
@@ -140,11 +140,11 @@ body {
 }
 .logo__span--light {
   color: var(--primary-white-color);
-}
+} */
 
 /* ------------------Links---------------- */
 
-.nav__link,
+/* .nav__link,
 .contacts__link {
   font-size: 14px;
   font-weight: 500;
@@ -189,11 +189,11 @@ body {
 .address__link--map:focus,
 .nav__link--current {
   color: var(--accent-color);
-}
+} */
 
 /* ------------------Hero----------------- */
 
-.hero {
+/* .hero {
   text-align: center;
   padding: 200px 0;
   margin: 0 auto;
@@ -242,11 +242,11 @@ body {
 .subscription-form__button:hover{
   color: var(--primary-white-color);
   background-color: var(--selection-color-hero-btn);
-}
+} */
 
 /* ----------------Features---------------*/
 
-.features__title {
+/* .features__title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -277,10 +277,10 @@ body {
   justify-content: center;
   background-color: var(--team-bg-color);
   margin-bottom: 30px;
-  }
+  } */
   
 /* ------------------Duties & Team----------------- */
-.duties {
+/* .duties {
   padding: 0 0 94px 0;
 }
 .duties__item {
@@ -367,9 +367,9 @@ body {
 }
 .social__icon {
   fill: currentColor;
-}
+} */
 /* ------------------Customers----------------- */
-
+/* 
 .customers__list {
   display: flex;
   justify-content: center;
@@ -400,10 +400,10 @@ body {
 }
 .customers__icon {
   fill: currentColor;
-}
+} */
 /* -----------------Footer---------------- */
 
-.footer {
+/* .footer {
   background-color: var(--footer-bg-color);
   padding: 60px 0;
 }
@@ -468,10 +468,10 @@ display: flex;
 }
 .icon-telegram {
   margin-left: 10px;
-}
+} */
 /* ----------Portfolio filter buttons----- */
 
-.filter__list {
+/* .filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -499,9 +499,9 @@ display: flex;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+} */
 /* -----------Portfolio projects------------- */
-
+/* 
 .projects__list {
   display: flex;
   flex-wrap: wrap;
@@ -533,7 +533,7 @@ display: flex;
 .project__link:hover,
 .project__link:focus,
 .project__link:focus-within {
-  box-shadow: 0px 1px 1px rprojectgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project__link:hover .project__overlay,
@@ -559,11 +559,11 @@ transform: translateY(0);
   line-height: 1.56;
   color: var(--primary-white-color);
   padding: 63px 24px;
-}
+} */
 
 /* -----------Modal window------------- */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -729,6 +729,6 @@ transform: translateY(0);
 .modal-form__button {
   padding: 10px 55px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
