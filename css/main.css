@@ -613,6 +613,10 @@ body {
   fill: currentColor;
 }
 
+.modal__icon-close:hover {
+  color: #2196f3;
+}
+
 .modal-form__check-text {
   position: relative;
   font-size: 14px;
