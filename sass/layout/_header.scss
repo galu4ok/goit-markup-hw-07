@@ -7,6 +7,6 @@
   background-color: $primary-white-color;
   border-bottom: 1px solid $border-header-line;
 }
-.header-container {
-  @extend %flexCenter;
-}
+// .header-container {
+//   @include flex ($jc:null);
+// }

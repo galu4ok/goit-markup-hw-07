@@ -1,8 +1,8 @@
 .nav {
-  @extend %flexCenter;
+  @include flex ($jc:null);
 }
 .nav__list {
-  @extend %flexCenter;
+  @include flex ($jc:null);
 }
 .nav__item:not(:last-child) {
   margin-right: 50px;

@@ -2,10 +2,10 @@
   background-color: $footer-bg-color;
   padding: 60px 0;
 }
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+// .footer-container {
+//   display: flex;
+//   align-items: baseline;
+// }
 .footer__nav {
   margin-right: 70px;
 }
@@ -20,13 +20,4 @@
   text-transform: uppercase;
   color: $primary-white-color;
   margin-bottom: 20px;
-}
-.address__item {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: $primary-white-color;
-}
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
 }

@@ -14,8 +14,7 @@
   height: 100%;;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  @extend %flexCenter;
-  justify-content: center;
+  @include flex ();
   background-color: $primary-white-color;
   color: #afb1b8;
   transition: color $duration $timing-function, border-color $duration $timing-function;
